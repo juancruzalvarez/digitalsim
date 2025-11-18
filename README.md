@@ -1,10 +1,11 @@
 # 🔌 Digital Circuit Simulator
 
-A visual circuit design tool built with React, TypeScript, and Zustand. Create and simulate digital logic circuits with an intuitive drag-and-drop interface.
+Live site: https://juancruzalvarez.github.io/digitalsim/
 
-<div align="center">
-  <sub>Built as a showcase project exploring React state management and canvas-based UIs</sub>
-</div>
+A visual circuit design tool built with React, TypeScript, and Zustand. Create and simulate digital logic circuits with an intuitive drag-and-drop interface.
+npm 
+Built as a showcase project exploring React state management and canvas-like UIs
+
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-blue.svg)
 ![React](https://img.shields.io/badge/React-18-61dafb.svg)
@@ -58,9 +59,9 @@ src/
 
 ## 🎯 Key Implementation Details
 
-- **Three-store architecture**: UI state, simulation state, and project management separated
-- **Anchor-based wire routing**: Click-to-place system with editable waypoints
-- **Debounced history**: Automatic history tracking with 500ms debounce
-- **Optimized rendering**: Selective subscriptions to prevent unnecessary re-renders
+- **Three-store architecture**: UI state, simulation state, and project management separated.
+- **Anchor-based wire routing**: Click-to-place system with editable waypoints.
+- **Debounced history**: Automatic history tracking with debouncing.
+- **Optimized rendering**: Selective subscriptions to prevent unnecessary re-renders.
 
 ---
